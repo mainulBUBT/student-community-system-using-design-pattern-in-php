@@ -1,0 +1,375 @@
+body{
+    background-color :#dcdcdc; 
+}
+
+.navbar {
+	box-shadow: 2px 2px 5px #0F0E0E2B;
+	opacity: 0.9;
+	background-color: #0D1440;
+}
+.navbar-brand.logo {
+	font-family: cursive;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.navbar .nav-item {
+	font-size: 1.3rem;
+	padding-right: 1.4rem;
+}
+
+.card-box {
+
+     margin-bottom: 30px;
+     color: #696969;
+     background-color: #fff;
+     border-radius: 5px;
+     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+ }
+ .card-box-heading {
+	color: #393939;
+	padding: 10px 20px;
+	border-width: 0;
+	border-radius: 0;
+	border-bottom: 1px solid #cacaca75;
+	padding-bottom: 10px;
+}
+.card-box-post {
+	margin: 0 auto;
+	width: 87%;
+	padding-bottom: 26px;
+	padding-top: 20px;
+}
+
+
+.card-box-post .actions {
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	padding: 10px 20px;
+	background-color: #ebebea;
+	border-style: solid;
+	border-width: 0 1px 1px;
+	border-color: #ccc;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	justify-content: end;
+}
+.post-feed {
+	width: 87%;
+	margin: 0 auto;
+	border: 1px solid #0D1440;
+	margin-bottom: 13px;
+	background: #0D1440;
+	box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	height: 50px;
+}
+.post-feed p {
+	margin: 0 auto;
+	font-family: Comic Sans MS;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	padding: 12px;
+}
+
+/* .post {
+	width: 87%;
+	border: 3px solid #0D1440;
+	box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.37);
+	margin: 0 auto;
+} */
+
+.post {
+	width: 87%;
+	border: 1px solid #f4f4f4;
+	/* box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.37); */
+    margin: 0 auto;
+    border: 1px solid #ced4da;
+}
+.profile-post{
+    width: 100%;
+    border: 1px solid #f4f4f4;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    
+}
+.profile-post-body {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	min-height: 1px;
+	padding: 1.25rem;
+	width: 87%;
+	margin: 0 auto;
+}
+
+.post-box {
+	width: 87%;
+	border: 1px solid #0D1440;
+	box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.37);
+	margin: 0 auto;
+}
+.post-box-header {
+	background-color: #0D1440;
+	color: #fff;
+	font-weight: bold;
+}
+
+.post-user-img {
+	display: inline-block;
+	max-width: 12%;
+	height: auto;
+	border-radius: 50%;
+	border: 1px solid #919191d6;
+}
+
+.post-user {
+    display: inline;
+    color: #000;
+}
+
+.post-button {
+	background-color: #0D1440;
+	border: 1px solid #0D1440;
+	color: #fff;
+	float: right;
+}
+
+.post-button:hover {
+	background-color: #fff;
+	color: #0D1440;
+	border-color: #0D1440;
+}
+
+.post-date {
+    position: absolute;
+    bottom: 0px;
+}
+
+.chatbox {
+	height: auto;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+	padding-top: 1px;
+	margin-top: 7px;
+}
+.chatbox-heading {
+	color: #393939;
+	padding: 10px 20px;
+	border-width: 0;
+	border-radius: 0;
+	border-bottom: 1px solid #cacaca75;
+	padding-bottom: 10px;
+}
+
+.messages {
+    overflow-y: scroll;
+    height: 450px;
+}
+.messages ul {
+    margin: 0;
+    padding: 0;
+}
+
+.messages ul li {
+    list-style: none;
+    display: inline-block;
+    clear: both;
+    /* float: left; */
+    margin: 15px 5px;
+    width: calc(100% - 25px);
+    font-size: 0.9em;
+}
+
+.messages ul li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* float: left; */
+    margin: 5px;
+}
+
+.messages ul li p {
+    display: table;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 300px;
+}
+
+.sent img {
+    float: left;
+}
+
+.replies img {
+    float: right;
+}
+
+
+.sent p {
+    background-color: #0367A6;
+    color: #fff;
+    float: left;
+}
+
+.replies p {
+    background-color: #D9D9D9;
+    color: #333;
+    float: right;
+}
+
+
+
+
+/* LOGIN.HTML PAGE */
+#login .row, #register .row{
+    min-height: 500px;
+}
+#login .container, #register .container {
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+}
+#login h2, #register h2 {
+    margin-top: 20px;
+    margin-bottom:30px;
+    font-weight:800; 
+    font-size:30px; 
+    color: #0D1440;
+}
+
+#login h2::after, #register h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: #07104896;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group label {
+    text-transform: uppercase;
+}
+
+.login-form button{
+    background-color: #0D1440;
+    color: #fff;
+    border: 1px solid #0D1440;
+    overflow: hidden;
+}
+
+.login-form button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.image-sec {
+    position: relative;
+    background-image: url('../img/login-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.login-column, .image-column {
+    border-radius: 10px;
+}
+
+/*---------Profile--------------*/
+.profile-header {
+	position: relative;
+	margin-top: 7px;
+}
+.card .body {
+	font-size: 14px;
+	color: #424242;
+	padding: 20px;
+	font-weight: 400;
+}
+.profile-header .profile-image img {
+	border-radius: 50%;
+	width: 140px;
+	border: 3px solid #fff;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.m-t-5 {
+    margin-top: 5px;
+}
+.counter {
+    padding: 22px 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+}
+.counter .count-data {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.counter p {
+    font-weight: 600;
+    margin: 0;
+}
+
+.count.h2 {
+	color: #0D1440;
+	font-weight: bold;
+}
+.job_post {
+	color: #999;
+	font-weight: bold;
+}
+
+/*--------------BUY AND SELL----------------*/
+
+
+.product-image {
+    width: 100%
+}
+.item-show {
+	line-height: 3px;
+	padding-top: 34px;
+	color: #757373;
+	font-size: 14px;
+	/* font-weight: bold; */
+}
+.buy-sell-heading {
+	color: #393939;
+	padding: 10px 20px;
+	border-width: 0;
+	border-radius: 0;
+	padding-bottom: 10px;
+}
+.btn-new-ads {
+	color: #000;
+	background-color: #f1f2f278;
+	border-color: #0D144014;
+	font-weight: bold;
+}
+.btn-new-ads:hover {
+	color: #fff;
+	background-color: #007bff;
+	border-color: #007bff;
+	font-weight: bold;
+}
+.bg-details{
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+	padding-top: 1px;
+	margin-top: 7px
+}
+
